@@ -8,9 +8,6 @@ from spacy.symbols import ENT_TYPE, TAG, DEP
 import spacy.about
 import spacy.util
 
-# from app.parse import Parse, Entities
-
-
 MODELS = os.getenv("languages", "").split()
 
 _models = {}
