@@ -2,7 +2,6 @@ from wsgiref import simple_server
 
 from displacy_service.server import APP, MODELS, get_model
 
-
 def run():
     for model in MODELS:
       print("Load model ", model)
